@@ -1,7 +1,7 @@
 
 import './styles/App.css';
 import Body from './components/Body.jsx';
-import Header from './components/Header';
+
 
 function App() {
   return (

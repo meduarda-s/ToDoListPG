@@ -58,7 +58,7 @@ function Body(){
                                 <li key={index}>
                                     {task}{" "}
                                     <button onClick={() => completeTask(index)}>Concluir</button>{" "}
-                                    <button onClick={() => deleteTask(index, false)}>Deletar</button>
+                                    <button onClick={() => deleteTask(index, false)}>Deletar</button><br/><br/>
                                 </li>
                             ))}
                         </ul>
@@ -68,7 +68,7 @@ function Body(){
                         <ul>
                             {completedTasks.map((task, index) => (
                                 <li key={index}>
-                                    {task} <button onClick={() => deleteTask(index, true)}>Deletar</button>
+                                    {task} <button onClick={() => deleteTask(index, true)}>Deletar</button><br/><br/>
                                 </li>
                             ))}
                         </ul>
