@@ -43,7 +43,7 @@ O próximo passo é clonar o repositório no GITHUB com o comando abaixo:
 ```sh
   git clone https://github.com/meduarda-s/ToDoListPG.git
   ```
-Na pasta do projeto é necessário instalar os pacotes do via npm com o seguinte comando:
+Na pasta do projeto onde estará o arquivo package.json é necessário instalar os pacotes do via npm com o seguinte comando:
 ```sh
   npm install
   ```
